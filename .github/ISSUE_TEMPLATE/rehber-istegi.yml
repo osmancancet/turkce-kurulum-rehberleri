@@ -1,0 +1,34 @@
+name: Rehber isteği
+description: Türkçe kurulum rehberi görmek istediğin bir aracı öner
+title: "Rehber isteği: "
+labels: ["rehber-istegi"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Aracın deposu
+      description: GitHub adresi
+      placeholder: https://github.com/sahip/depo
+    validations:
+      required: true
+  - type: textarea
+    id: neden
+    attributes:
+      label: Neden bu araç?
+      description: Ne işe yarıyor, kimler kullanır, Türkçe kaynak eksikliği nerede?
+    validations:
+      required: true
+  - type: checkboxes
+    id: platform
+    attributes:
+      label: Hangi işletim sistemleri öncelikli?
+      options:
+        - label: macOS
+        - label: Linux
+        - label: Windows
+  - type: checkboxes
+    id: ustlen
+    attributes:
+      label: Katkı
+      options:
+        - label: Bu rehberi ben yazmak istiyorum

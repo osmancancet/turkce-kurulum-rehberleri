@@ -1,0 +1,27 @@
+name: Rehberde hata
+description: Bir rehberdeki adım çalışmıyor ya da güncel değil
+title: "Hata: "
+labels: ["hata"]
+body:
+  - type: input
+    id: rehber
+    attributes:
+      label: Hangi rehber?
+      placeholder: docs/rehberler/arac-adi.md
+    validations:
+      required: true
+  - type: input
+    id: ortam
+    attributes:
+      label: İşletim sistemi ve araç sürümü
+      placeholder: Windows 11, araç 1.2.3
+    validations:
+      required: true
+  - type: textarea
+    id: hata
+    attributes:
+      label: Hangi adımda ne oldu?
+      description: Çalıştırdığın komutu ve aldığın hata mesajını yapıştır
+      render: text
+    validations:
+      required: true

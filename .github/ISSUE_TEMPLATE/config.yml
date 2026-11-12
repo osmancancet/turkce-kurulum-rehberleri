@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Kurulum sorusu
+    url: https://github.com/osmancancet/turkce-kurulum-rehberleri/discussions
+    about: Kurulumda takıldıysan soruyu Tartışmalar bölümünde sor
