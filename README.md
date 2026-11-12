@@ -6,7 +6,9 @@ GitHub'da hızla yükselen açık kaynak araçlar için, yeni başlayanlara yön
 
 ## Rehberler
 
-Rehberler `docs/rehberler/` klasöründe durur. İlk rehberler hazırlanıyor.
+| Araç | Ne işe yarar? |
+|---|---|
+| [Worktrunk](docs/rehberler/worktrunk.md) | Git worktree yönetimi; birden fazla dalda aynı anda çalışma |
 
 ## Nasıl katkı verilir?
 
