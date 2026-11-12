@@ -34,4 +34,5 @@ nav:
   - Ana sayfa: index.md
   - Rehberler:
       - rehberler/index.md
+      - Worktrunk: rehberler/worktrunk.md
   - Katkı: katki.md
