@@ -4,6 +4,8 @@ GitHub'da hızla yükselen açık kaynak araçlar için, yeni başlayanlara yön
 
 Çoğu yeni aracın belgesi yalnızca İngilizce ve okurun terminale, paket yöneticilerine alışkın olduğunu varsayıyor. Buradaki rehberler aynı kurulumu sıfırdan, işletim sistemine göre ayrılmış adımlarla ve sık görülen hataların çözümleriyle anlatır.
 
+**Site:** https://osmancancet.github.io/turkce-kurulum-rehberleri/
+
 ## Rehberler
 
 | Araç | Ne işe yarar? |
