@@ -1,0 +1,37 @@
+site_name: Türkçe Kurulum Rehberleri
+site_description: GitHub'da yükselen açık kaynak araçlar için yeni başlayanlara Türkçe kurulum rehberleri
+site_url: https://osmancancet.github.io/turkce-kurulum-rehberleri/
+repo_url: https://github.com/osmancancet/turkce-kurulum-rehberleri
+repo_name: osmancancet/turkce-kurulum-rehberleri
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: tr
+  features:
+    - content.code.copy
+    - content.action.edit
+    - navigation.sections
+    - search.highlight
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Koyu tema
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Açık tema
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+nav:
+  - Ana sayfa: index.md
+  - Rehberler:
+      - rehberler/index.md
+  - Katkı: katki.md

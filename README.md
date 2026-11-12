@@ -1,2 +1,26 @@
-# turkce-kurulum-rehberleri
-GitHub'da yükselen açık kaynak araçlar için yeni başlayanlara Türkçe kurulum rehberleri
+# Türkçe Kurulum Rehberleri
+
+GitHub'da hızla yükselen açık kaynak araçlar için, yeni başlayanlara yönelik Türkçe kurulum rehberleri.
+
+Çoğu yeni aracın belgesi yalnızca İngilizce ve okurun terminale, paket yöneticilerine alışkın olduğunu varsayıyor. Buradaki rehberler aynı kurulumu sıfırdan, işletim sistemine göre ayrılmış adımlarla ve sık görülen hataların çözümleriyle anlatır.
+
+## Rehberler
+
+Rehberler `docs/rehberler/` klasöründe durur. İlk rehberler hazırlanıyor.
+
+## Nasıl katkı verilir?
+
+- **Araç öner:** [Rehber isteği aç](https://github.com/osmancancet/turkce-kurulum-rehberleri/issues/new/choose).
+- **Rehber yaz:** [Katkı rehberini](CONTRIBUTING.md) oku, `sablonlar/rehber-sablonu.md` dosyasından başla.
+- **Soru sor:** Kurulumda takıldıysan [Tartışmalar](https://github.com/osmancancet/turkce-kurulum-rehberleri/discussions) bölümüne yaz.
+
+## Yerelde çalıştırma
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+## Rehber kalıbı
+
+Her rehber aynı başlıkları taşır: aracın ne işe yaradığı, ön koşullar, kurulum, ilk kullanım, sık karşılaşılan sorunlar ve kaynaklar. Rehberin başındaki `son_dogrulama` alanı komutların en son ne zaman kontrol edildiğini gösterir.
