@@ -7,8 +7,9 @@ Bu depo, GitHub'da yükselen açık kaynak araçlar için Türkçe kurulum rehbe
 1. Aynı araç için açık bir istek ya da rehber var mı diye [issue listesine](https://github.com/osmancancet/turkce-kurulum-rehberleri/issues) bak. Yoksa "Rehber isteği" şablonuyla bir tane aç ve üstlendiğini yaz.
 2. Depoyu fork'la, `sablonlar/rehber-sablonu.md` dosyasını `docs/rehberler/arac-adi.md` olarak kopyala.
 3. Şablondaki bütün başlıkları doldur. Başlık adlarını değiştirme; otomatik denetim bunlara bakar.
-4. `mkdocs.yml` içindeki `nav` bölümüne rehberi ekle.
-5. Pull request aç ve açıklamaya `Closes #istek-numarası` yaz.
+4. `python scripts/rehber_denetle.py` çalıştır. Betik rehberi denetler ve rehber listesini günceller.
+5. `mkdocs.yml` içindeki `nav` bölümüne rehberi ekle.
+6. Pull request aç ve açıklamaya `Closes #istek-numarası` yaz.
 
 ## Yazım kuralları
 
@@ -21,7 +22,9 @@ Bu depo, GitHub'da yükselen açık kaynak araçlar için Türkçe kurulum rehbe
 ## Yerelde önizleme
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
+python scripts/rehber_denetle.py
+pytest -q
 mkdocs serve
 ```
 
