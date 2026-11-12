@@ -9,6 +9,7 @@ GitHub'da hızla yükselen açık kaynak araçlar için, yeni başlayanlara yön
 | Araç | Ne işe yarar? |
 |---|---|
 | [agent-browser](docs/rehberler/agent-browser.md) | Yapay zekâ ajanları için komut satırından tarayıcı otomasyonu |
+| [Spec Kit](docs/rehberler/spec-kit.md) | Kodlama ajanlarıyla şartname odaklı geliştirme süreci |
 | [Worktrunk](docs/rehberler/worktrunk.md) | Git worktree yönetimi; birden fazla dalda aynı anda çalışma |
 
 ## Nasıl katkı verilir?
