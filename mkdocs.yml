@@ -35,5 +35,6 @@ nav:
   - Rehberler:
       - rehberler/index.md
       - agent-browser: rehberler/agent-browser.md
+      - Spec Kit: rehberler/spec-kit.md
       - Worktrunk: rehberler/worktrunk.md
   - Katkı: katki.md
