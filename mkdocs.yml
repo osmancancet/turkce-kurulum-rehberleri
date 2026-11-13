@@ -24,6 +24,8 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - def_list
+  - pymdownx.keys
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -32,6 +34,7 @@ markdown_extensions:
       permalink: true
 nav:
   - Ana sayfa: index.md
+  - Terminale giriş: baslangic.md
   - Rehberler:
       - rehberler/index.md
       - agent-browser: rehberler/agent-browser.md
