@@ -35,6 +35,7 @@ nav:
   - Rehberler:
       - rehberler/index.md
       - agent-browser: rehberler/agent-browser.md
+      - Browser Use: rehberler/browser-use.md
       - Open WebUI: rehberler/open-webui.md
       - Spec Kit: rehberler/spec-kit.md
       - Worktrunk: rehberler/worktrunk.md
