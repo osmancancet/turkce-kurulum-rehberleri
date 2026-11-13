@@ -13,6 +13,7 @@ GitHub'da hızla yükselen açık kaynak araçlar için, yeni başlayanlara yön
 | [agent-browser](docs/rehberler/agent-browser.md) | Yapay zekâ ajanları için komut satırından tarayıcı otomasyonu |
 | [Browser Use](docs/rehberler/browser-use.md) | Yapay zekâ modeline tarayıcı kullandıran Python kütüphanesi |
 | [Open WebUI](docs/rehberler/open-webui.md) | Yerel ve bulut modeller için tarayıcıda çalışan sohbet arayüzü |
+| [Scrapling](docs/rehberler/scrapling.md) | Web sayfalarından veri toplama kütüphanesi |
 | [Spec Kit](docs/rehberler/spec-kit.md) | Kodlama ajanlarıyla şartname odaklı geliştirme süreci |
 | [Worktrunk](docs/rehberler/worktrunk.md) | Git worktree yönetimi; birden fazla dalda aynı anda çalışma |
 
