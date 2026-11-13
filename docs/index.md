@@ -12,6 +12,8 @@ GitHub'da hızla yükselen açık kaynak araçları, daha önce terminal açmam�
 
 Her rehber aynı kalıbı izler: araç ne işe yarar, kurmadan önce ne gerekir, işletim sistemine göre kurulum, ilk kullanım ve sık karşılaşılan sorunlar. Komutlar aracın resmî belgelerinden alınır ve rehberin başında son doğrulama tarihi yazar.
 
+Daha önce terminal kullanmadıysan önce [Terminale giriş](baslangic.md) sayfasını oku.
+
 [Rehberlere git](rehberler/index.md){ .md-button .md-button--primary }
 [Rehber iste](https://github.com/osmancancet/turkce-kurulum-rehberleri/issues/new/choose){ .md-button }
 
